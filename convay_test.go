@@ -26,7 +26,7 @@ func TestCountNeighboursSliceReturnsEightForAFieldWithAllNeighboursAlive(t *test
     }
 }
 
-    func TestCountNeighboursSliceCountsCorrectlyNeighboursFromTopAndBottom(t *testing.T) {
+func TestCountNeighboursSliceCountsCorrectlyNeighboursFromTopAndBottom(t *testing.T) {
     a := [5][5]Field{
         {Field{false, "0", 0}, Field{true,"1", 0}, Field{false,"2", 0}, Field{true,"3", 0}, Field{false, "0", 0}},
         {Field{true, "0", 0}, Field{true,"1", 0}, Field{true,"2", 0}, Field{true,"3", 0}, Field{false, "0", 0}},
